@@ -83,7 +83,7 @@ if(!isset($errMSG))
 
     if($stmt->execute())
     {
-      echo("<script>window.location = 'obrigado.php';</script>");
+      echo("<script>window.location = 'https://wa.me/message/NEB6HH4YSCAED1';</script>");
     }
     else
     {

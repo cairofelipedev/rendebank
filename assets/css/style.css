@@ -11,12 +11,7 @@ body {
 }
 
 a {
-    color: #e43c5c;
-}
-
-a:hover {
-    color: #ea6981;
-    text-decoration: none;
+    color: #3ca1e4;
 }
 
 h1,
@@ -35,7 +30,6 @@ h6 {
 
 .back-to-top {
     position: fixed;
-    display: none;
     right: 15px;
     bottom: 15px;
     z-index: 99999;
@@ -578,7 +572,6 @@ section {
 
 .section-title {
     text-align: center;
-    padding-bottom: 30px;
 }
 
 .section-title h2 {
@@ -1533,6 +1526,9 @@ section {
     .portfolio-details .portfolio-info {
         position: static;
         margin-top: 30px;
+    }
+    .services {
+        padding-top: 100px;
     }
 }
 
@@ -4061,15 +4057,6 @@ h6 {
     font-weight: 400;
 }
 
-a {
-    color: #f96332;
-}
-
-a:hover,
-a:focus {
-    color: #f96332;
-}
-
 h1,
 .h1 {
     font-size: 3.5em;
@@ -5315,7 +5302,6 @@ Created using IcoMoon - icomoon.io
     display: inline-block;
     font: normal normal normal 14px/1 'Nucleo Outline';
     font-size: inherit;
-    speak: none;
     text-transform: none;
     /* Better Font Rendering */
     -webkit-font-smoothing: antialiased;
@@ -6476,7 +6462,6 @@ Created using IcoMoon - icomoon.io
 
 .footer nav {
     display: inline-block;
-    float: left;
     padding-left: 7px;
 }
 
@@ -6670,7 +6655,6 @@ Created using IcoMoon - icomoon.io
 }
 
 .fixed-plugin .adjustments-line p {
-    float: left;
     display: inline-block;
     margin-bottom: 0;
     font-size: 1em;

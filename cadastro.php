@@ -2,6 +2,7 @@
 require_once './admin/dbconfig.php';
 include './admin/lead-insert.php';
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -107,7 +108,6 @@ include './admin/lead-insert.php';
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
