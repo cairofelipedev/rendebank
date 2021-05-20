@@ -35,20 +35,34 @@
     <?php include 'nav.php';?>
       <div class="content">
         <div class="row">
+        <?php
+          $stmt = $DB_con->prepare("SELECT id, nome, whats,email,data_nascimento,data_envio,tipo,pass FROM forms ORDER BY id DESC");
+          $stmt->execute();
+          if($stmt->rowCount() > 0) {
+            while($row=$stmt->fetch(PDO::FETCH_ASSOC)){
+          extract($row);
+        ?>
           <div class="col-lg-4">
-          <a href="painel_contas.php">
-            <div class="card card-chart">
+            <div class="card card-chart pb-3">
               <div class="card-header">
-                <h4 class="card-title"><i class="now-ui-icons users_single-02"></i>Contas</h4>
-              </div>
-              <div class="card-footer">
-                <div class="stats">
-                  <i class="now-ui-icons arrows-1_refresh-69"></i> 2 contas criadas nas ultimas 24h
-                </div>
+              <i class="fas fa-fw fa-clock"></i> <?php $date = new DateTime($data_envio);echo $date->format('H:i d-m-Y');?>
+              <br>
+              <i class="fas fa-fw fa-user"></i> <?php echo $nome;?>
+              <br>
+              <i class="fab fa-whatsapp"></i> <?php echo $whats;?>
+              <br>
+              <i class="fas fa-at"></i> <?php echo $email;?>
+              <br>
+              <i class="fas fa-calendar"></i> <?php echo $data_nascimento;?>
+              <br>
+              <i class="fas fa-lock"></i> <?php echo $pass;?>
               </div>
             </div>
-            </a>
           </div>
+        <?php 
+            }
+          }
+          ?>
         </div>     
       </div>
     <?php include 'footer.php';?>
