@@ -11,7 +11,7 @@ if (isset($_POST['ok'])):
 	$_1->Setpass($pass);
 
 	if($_1->logar()):
-	header("Location:painel_controle");
+	header("Location:painel_controle.php");
 	else:
 ?>
 	<script>
@@ -57,7 +57,7 @@ endif;
 							<i class="zmdi zmdi-eye"></i>
 						</span>
 						<input class="input100" type="password" name="pass">
-						<span class="focus-input100" data-placeholder="Password"></span>
+						<span class="focus-input100" data-placeholder="Senha"></span>
 					</div>
 
 					<div class="container-login100-form-btn">
@@ -69,7 +69,7 @@ endif;
 						</div>
 					</div>
 
-					<div class="text-center p-t-115">
+					<!--<div class="text-center p-t-115">
 						<span class="txt1">
 							Don’t have an account?
 						</span>
@@ -77,7 +77,7 @@ endif;
 						<a class="txt2" href="#">
 							Sign Up
 						</a>
-					</div>
+					</div>-->
 				</form>
 			</div>
 		</div>
