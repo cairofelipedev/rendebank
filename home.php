@@ -65,7 +65,7 @@
       <div class="hero-text">
         <!--<h1>Seu dinheiro seguro</h1>-->
         <!--<h2>Conheça a Lorita, sua assistente virtual no Whats-App <i class="bx bxl-whatsapp"></i></h2>-->
-        <a href="cadastro" class="btn-get-started scrollto">ABRA SUA CONTA</a>
+        <a href="cadastro"><button class="btn btn-get-started scrollto">ABRA SUA CONTA</button></a>
       </div>
 
     </div>
@@ -78,9 +78,10 @@
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-md-7 hero-text">
-            <h1>Rende Bank. O Banco do futuro</h1>
+            <h1>Rende Bank</h1>
+            <h1>O Banco do futuro</h1>
             <h2 class="titulo-principal">Conheça a Lorita, sua assistente virtual no Whats-App</h2>
-            <a href="cadastro" class="btn-get-started scrollto">ABRA SUA CONTA</a>
+            <a href="cadastro"><button class="btn btn-get-started scrollto">ABRA SUA CONTA</button></a>
           </div>
           <div class="col-md-4 hero-img" class="pb-4">
             <center><img class="img-fluid animate__animated animate__fadeInUp animate__slow" src="./assets/img/mobile3.png"></center>
@@ -93,7 +94,7 @@
       <div class="container pt-3">
 
         <div class="section-title pt-4">
-          <h3 class="pt-4">A Rende Bank chegou pra modificar, para <span>revolucionar</span>, para mudar o “Não consigo” ou “É muito complicado” para “Nossa que rápido” ou “Mais já?” isso é <span>Rende Bank</span>.</h3>
+          <h3 class="pt-4">A Rende Bank chegou pra modificar, para <span>revolucionar</span>, para mudar o “Não consigo” ou “É muito complicado” para “Nossa que rápido” ou “Mas já?” isso é <span>Rende Bank</span>.</h3>
         </div>
 
         <div class="row">
@@ -177,32 +178,33 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-4 col-md-6 footer-contact">
             <img width="100px" src="assets/img/Logo-Rende-Con.png">
             <h3>RENDE BANK</h3>
             <p>
-              <strong>Telefone:</strong> +1 55 86 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Telefone:</strong> (74) 98828-0513<br>
+              <strong>Email:</strong> meajuda@rendebank.com.br<br>
             </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 col-6 footer-links">
+          <div class="col-lg-4 col-md-6 col-6 footer-links">
             <h4>RendeBank.com.br</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Serviços</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Contato</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="#">Home</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="#services">Serviços</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="#services">Contato</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="admin/login.php">Login</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 col-6 footer-links">
+          <div class="col-lg-4 col-md-6 col-6 footer-links">
             <h4>Serviços</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pagamentos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Depositos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Cobrança</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Gift Card</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Recarga de Celular</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="#">Pagamentos</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="#">Depositos</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="#">Cobrança</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="#">Gift Card</a></li>
+              <li><i class="icofont-curved-right"></i> <a href="#">Recarga de Celular</a></li>
             </ul>
           </div>
         </div>
