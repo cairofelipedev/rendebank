@@ -133,6 +133,22 @@
               <h4 class="title"><a href="">Gift Card</a></h4>
             </div>
           </div>
+          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 d-flex align-items-center">
+            <div class="icon-box">
+              <div class="icon"><i class="icofont-whatsapp"></i></div>
+            </div>
+            <div class="text-box">
+              <h4 class="title"><a href="">Conta 100% pelo Whats</a></h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 d-flex align-items-center">
+            <div class="icon-box">
+              <div class="icon"><i class="icofont-close-line-circled"></i></div>
+            </div>
+            <div class="text-box">
+              <h4 class="title"><a href="">Sem taxas</a></h4>
+            </div>
+          </div>
         </div>
         <center><img class="img-fluid" width="300px" src="assets/img/Logo-Rende-Conta-3.png"></center>
       </div>

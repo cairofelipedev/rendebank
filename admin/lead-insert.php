@@ -3,6 +3,7 @@ error_reporting(E_PARSE);
 if(isset($_POST["submit"])){
 
 $nome = $_POST['nome'];
+$cpf = $_POST['cpf'];
 $whats = $_POST['whats'];
 $email = $_POST['email'];
 $data_nascimento = $_POST['data_nascimento'];
@@ -72,12 +73,13 @@ if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 if(!isset($errMSG))
 {
-    $stmt = $DB_con->prepare('INSERT INTO forms (nome,whats,email,data_nascimento,pass) VALUES(:unome,:uwhats,:uemail,:udata_nascimento,:upass)');
+    $stmt = $DB_con->prepare('INSERT INTO forms (nome,whats,email,data_nascimento,pass,cpf) VALUES(:unome,:uwhats,:uemail,:udata_nascimento,:upass,:ucpf)');
     $stmt->bindParam(':unome',$nome);
     $stmt->bindParam(':uwhats',$whats);
     $stmt->bindParam(':uemail',$email);
     $stmt->bindParam(':udata_nascimento',$data_nascimento);
     $stmt->bindParam(':upass',$pass);
+    $stmt->bindParam(':ucpf',$cpf);
 
 
 

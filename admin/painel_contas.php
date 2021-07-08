@@ -36,7 +36,7 @@
       <div class="content">
         <div class="row">
         <?php
-          $stmt = $DB_con->prepare("SELECT id, nome, whats,email,data_nascimento,data_envio,tipo,pass FROM forms ORDER BY id DESC");
+          $stmt = $DB_con->prepare("SELECT id, nome, whats,email,data_nascimento,data_envio,tipo,pass,cpf FROM forms ORDER BY id DESC");
           $stmt->execute();
           if($stmt->rowCount() > 0) {
             while($row=$stmt->fetch(PDO::FETCH_ASSOC)){
@@ -48,6 +48,8 @@
               <i class="fas fa-fw fa-clock"></i> <?php $date = new DateTime($data_envio);echo $date->format('H:i d-m-Y');?>
               <br>
               <i class="fas fa-fw fa-user"></i> <?php echo $nome;?>
+              <br>
+              <i class="fas fa-id-card"></i> <?php echo $cpf;?>
               <br>
               <i class="fab fa-whatsapp"></i> <?php echo $whats;?>
               <br>

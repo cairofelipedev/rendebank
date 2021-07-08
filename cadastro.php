@@ -77,6 +77,7 @@ include './admin/lead-insert.php';
               <h2 class="fs-title">Informações Pessoais</h2>
               <h3 class="fs-subtitle">Obrigado por se juntar a nós 🥺! A partir de agora você faz parte da família Rende Bank ✨... Mas antes de tudo, me diz aí:</h3>
               <input type="text" name="nome" placeholder="Nome Completo" />
+              <input type="text" name="cpf" placeholder="CPF" />
               <input type="text" name="data_nascimento" placeholder="Data de Nascimento" />
               <input type="text" name="whats" placeholder="Número do Whats-App" />
               <input type="button" name="next" class="next action-button" value="Próximo" />
